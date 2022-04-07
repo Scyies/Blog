@@ -1,0 +1,42 @@
+.main-destaques--posts {
+    display: grid;
+    height: calc(100vh - 150px);
+    gap: 1%;
+    grid-template-columns: 100%;
+    grid-template-rows: 48% 48%;
+}
+
+.publicacaoContainer {
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60% 6% 30%;
+    gap: .2%;
+}
+
+.publicacao-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.publicacao-titulo {
+    background-color: #fff;
+    color: black;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.publicacao-descricao {
+    background-color: #fff;
+    color: black;
+    display: flex;
+    text-align: justify;
+}

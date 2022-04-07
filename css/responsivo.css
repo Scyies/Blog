@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+    .main {
+        padding: 0 2%;
+    }
+    .main-destaques--posts {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        display: flex;
+    }
+    .main-destaques {
+        width: 70%;
+        margin-right: 1%;
+    }
+    .main-destaques--posts {
+        display: inline-block;
+    }
+    .lateral {
+        width: 30%;
+        height: inherit;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .main {
+        margin: 0 100px;
+    }
+}

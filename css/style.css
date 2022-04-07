@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4A3A6B;
+    color: #fffff0;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "lateral"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
