@@ -1,7 +1,7 @@
 const publicacoes = [{
     imagem: 'https://c4.wallpaperflare.com/wallpaper/211/732/863/tohsaka-rin-archer-fate-stay-night-fate-series-fate-stay-night-wallpaper-preview.jpg',
     titulo: 'Fate é muito based',
-    descricao: 'Rin é a best grill'
+    descricao: 'Teste'
 },
 {
     imagem: 'https://wallpaperaccess.com/full/768533.png',
@@ -11,7 +11,7 @@ const publicacoes = [{
 {
     imagem: 'https://images6.alphacoders.com/512/thumb-1920-512323.jpg',
     titulo: 'No game no life',
-    descricao: 'Sem jooojo sem vida'
+    descricao: 'Teste'
 }
 ];
 
