@@ -22,4 +22,18 @@
     margin-left: .5rem;
     text-decoration: none;
     color: #fffff0;
+    padding-bottom: .25rem;
+
+    display: inline-block;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s;
+    background-position: 50% calc(100% - 0px);
 }
+
+.header-link:hover {
+    background-size: 100% 1px;
+}
+
+

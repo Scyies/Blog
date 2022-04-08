@@ -11,7 +11,7 @@ const publicacoes = [{
 {
     imagem: 'https://images6.alphacoders.com/512/thumb-1920-512323.jpg',
     titulo: 'No game no life',
-    descricao: 'Sem jooojo sem vida escrevi e sai correndo pau no cu de quem ta lendo'
+    descricao: 'Sem jooojo sem vida'
 }
 ];
 
