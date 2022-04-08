@@ -22,7 +22,9 @@ publicacoes.forEach((publicacao) => {
     itemContainer.classList.add('publicacaoContainer');
 
     itemContainer.innerHTML = ` <img class="publicacao-img" src="${publicacao.imagem}"</img>
-                                <h2 class="publicacao-titulo">${publicacao.titulo}</h2>
-                                <p class="publicacao-descricao">${publicacao.descricao}</p>`;
+                                <div class="publicacao-text">
+                                    <h2 class="publicacao-titulo">${publicacao.titulo}</h2>
+                                    <p class="publicacao-descricao">${publicacao.descricao}</p>
+                                </div>`;
     div.appendChild(itemContainer);
 });

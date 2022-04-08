@@ -1,16 +1,20 @@
+.main-destaques {
+    height: auto;
+}
+
 .main-destaques--posts {
     display: grid;
-    height: calc(100vh - 150px);
-    gap: 1%;
+    height: auto;
+    gap: .5%;
     grid-template-columns: 100%;
-    grid-template-rows: 48% 48%;
+    grid-template-rows: auto;
 }
 
 .publicacaoContainer {
     height: auto;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 60% 6% 30%;
+    grid-template-rows: 65% 30%;
     gap: .2%;
 }
 
@@ -24,19 +28,23 @@
     object-fit: cover;
 }
 
-.publicacao-titulo {
+.publicacao-text {
     background-color: #fff;
-    color: black;
-    text-align: left;
+    height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+
+.publicacao-titulo {
+    display: block;
+    color: black;
     font-weight: 700;
     font-size: 1.25rem;
+    padding: .25rem;
 }
 
 .publicacao-descricao {
-    background-color: #fff;
     color: black;
-    display: flex;
     text-align: justify;
+    padding: .25rem;
 }

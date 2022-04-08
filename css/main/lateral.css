@@ -1,10 +1,10 @@
 .lateral {
     grid-area: lateral;
     background: #504E80;
+    height: auto;
 }
 
 .lateral-conteudo {
-    height: 100%;
     display: grid;
     gap: 1%;
     grid-template-columns: 100%;
