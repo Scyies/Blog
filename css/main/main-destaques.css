@@ -41,10 +41,13 @@
     font-weight: 700;
     font-size: 1.25rem;
     padding: .25rem;
+    border-bottom: 1px solid black;
+    margin: 0 .25rem;
 }
 
 .publicacao-descricao {
     color: black;
     text-align: justify;
     padding: .25rem;
+    margin: 0 .25rem;
 }
