@@ -1,6 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
 import { 
-    getFirestore, collection, getDocs
+    getFirestore, collection, getDocs,
+    addDoc
 } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js';
 
 
@@ -49,22 +50,17 @@ getDocs(colRef)
     })
 
 
+//eventListeners
+const addPubl = document.querySelector('.addPublicacao')
+addPubl.addEventListener('submit', (e) => {
+    e.preventDefault()
 
-// const publicacoes2 = [{
-//     imagem: 'https://c4.wallpaperflare.com/wallpaper/211/732/863/tohsaka-rin-archer-fate-stay-night-fate-series-fate-stay-night-wallpaper-preview.jpg',
-//     titulo: 'Fate é muito based',
-//     descricao: 'Teste'
-// },
-// {
-//     imagem: 'https://wallpaperaccess.com/full/768533.png',
-//     titulo: 'Steins;gate',
-//     descricao: 'El Psy Congroo'
-// },
-// {
-//     imagem: 'https://images6.alphacoders.com/512/thumb-1920-512323.jpg',
-//     titulo: 'No game no life',
-//     descricao: 'Teste'
-// }
-// ];
-
-// console.log(publicacoes2);
+    addDoc(colRef, {
+        titulo: addPubl.titulo.value,
+        descricao: addPubl.descricao.value,
+        imagem: addPubl.imagem.value
+    })
+    .then(() => {
+        addPubl.reset();
+    })
+})
