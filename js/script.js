@@ -27,7 +27,7 @@ getDocs(colRef)
         snapshot.docs.forEach(doc => {
             publicacoes.push({ ...doc.data(),id : doc.id})
         });
-        // console.log(publicacoes)
+        console.log(publicacoes)
 
         publicacoes.forEach((publicacao) => {
             // console.log(publicacao);
